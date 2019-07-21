@@ -10,17 +10,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-//require("./app/routing/apiRoutes")(app);
+ let newUser = require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
-
-
-app.post("/api/friends", function(req, res) {
-
-      
-
-})
+let userArrays = require("./app/data/friends")
 
   app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
-  
+
+
+
+
+
+
+
