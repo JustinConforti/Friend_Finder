@@ -63,6 +63,23 @@ let userArray = [
             2
         ]
     },
+    {
+        name: "Tony The Tiger",
+        photo: "https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        scores: [
+            3,
+            3,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            3,
+            4
+        ]
+    }
 ]
+
 module.exports = userArray
 
