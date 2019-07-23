@@ -1,8 +1,8 @@
 
 let userArray = [
     {
-        name: "Justin",
-        photo: "www.google.com",
+        name: "Michael",
+        photo: "https://image.shutterstock.com/image-photo/portrait-mature-businessman-wearing-glasses-260nw-738242395.jpg",
         scores: [
             5,
             1,
@@ -17,8 +17,39 @@ let userArray = [
         ]
     },
     {
-        name: "Jennifer",
-        photo: "http://santansun.com/wp-content/uploads/2018/11/5b7fdeab1900001d035028dc.jpeg",
+        name: "Angela",
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRxSJ8UIjX6Vgxy7_azaLglXcSkFvbIJ9aN-WnC6PQqOv-whN",
+        scores: [
+            4,
+            2,
+            5,
+            5,
+            5,
+            1,
+            4,
+            3,
+            5,
+            2
+        ]
+    },
+    {
+        name: "Tyler",
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRxSJ8UIjX6Vgxy7_azaLglXcSkFvbIJ9aN-WnC6PQqOv-whN",
+        scores: [
+            4,
+            2,
+            5,
+            5,
+            5,
+            1,
+            4,
+            3,
+            5,
+            2
+        ]
+    },  {
+        name: "Schmidt",
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRxSJ8UIjX6Vgxy7_azaLglXcSkFvbIJ9aN-WnC6PQqOv-whN",
         scores: [
             4,
             2,
