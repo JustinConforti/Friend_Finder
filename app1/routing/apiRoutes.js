@@ -10,7 +10,6 @@ module.exports = function (app) {
                 let numOne = parseInt(req.body.scores[i])
                 let numTwo = parseInt(currentArray.scores[i])
                 totalScore += Math.abs(numOne - numTwo)
-                // totalScore += math.abs(req.body.scores[i] - currentArray.scores[i])
                 console.log("current totalScore", totalScore)
             }
             totalScoreArray.push(totalScore)
